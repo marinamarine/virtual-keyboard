@@ -1,0 +1,51 @@
+.container {
+  margin: 0 auto;
+}
+
+.textarea {
+  border: 1px solid #0e0333;
+  font-size: 1rem;
+}
+
+.keyboard {
+  width: 100%;
+  max-width: 800px;
+}
+
+.keyboard__keys{
+  padding: 8px;
+  text-align: center;
+
+}
+
+.keyboard__key {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  width: 6%;
+  background-color: #0e0333;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px;
+  color: #f5deb3;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.keyboard__key_wide {
+  width: 9%;
+}
+
+.keyboard__key_extra-wide {
+  width: 12%;
+}
+
+.keyboard__key_extra-wide {
+  width: 20%;
+}
+
+.pressed {
+  background-color: #a52a2a;
+}
+
