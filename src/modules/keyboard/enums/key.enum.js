@@ -72,39 +72,43 @@ const KEYS_ENUM = {
     size: 'small',
   },
   KeyR: {
-    value: { en: 'r', ru: 'у' },
+    value: { en: 'r', ru: 'к' },
     size: 'small',
   },
   KeyT: {
-    value: { en: 't', ru: '_' },
+    value: { en: 't', ru: 'е' },
     size: 'small',
   },
   KeyY: {
-    value: { en: 'y', ru: '_' },
+    value: { en: 'y', ru: 'н' },
     size: 'small',
   },
   KeyU: {
-    value: { en: 'u', ru: '_' },
+    value: { en: 'u', ru: 'г' },
     size: 'small',
   },
   KeyI: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'i', ru: 'ш' },
+    size: 'small',
+  },
+  KeyO: {
+    value: { en: 'o', ru: 'щ' },
+    size: 'small',
+  },
+  KeyP: {
+    value: { en: 'p', ru: 'з' },
     size: 'small',
   },
   BracketLeft: {
-    value: { en: '[', ru: '_' },
+    value: { en: '[', ru: 'х' },
     size: 'small',
   },
   BracketRight: {
-    value: { en: ']', ru: '_' },
+    value: { en: ']', ru: 'ъ' },
     size: 'small',
   },
   Backslash: {
     value: { all: '\\' },
-    size: 'small',
-  },
-  Delete: {
-    value: { all: 'Del' },
     size: 'small',
   },
   CapsLock: {
@@ -112,47 +116,47 @@ const KEYS_ENUM = {
     size: 'wide',
   },
   KeyA: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'a', ru: 'ф' },
     size: 'small',
   },
   KeyS: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 's', ru: 'ы' },
     size: 'small',
   },
   KeyD: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'd', ru: 'в' },
     size: 'small',
   },
   KeyF: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'f', ru: 'а' },
     size: 'small',
   },
   KeyG: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'g', ru: 'п' },
     size: 'small',
   },
   KeyH: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'h', ru: 'р' },
     size: 'small',
   },
   KeyJ: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'j', ru: 'о' },
     size: 'small',
   },
   KeyK: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'k', ru: 'о' },
     size: 'small',
   },
   KeyL: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'l', ru: 'д' },
     size: 'small',
   },
   Semicolon: {
-    value: { en: ';', ru: '_' },
+    value: { en: ';', ru: 'ж' },
     size: 'small',
   },
   Quote: {
-    value: { en: '\'', ru: '_' },
+    value: { en: '\'', ru: 'э' },
     size: 'small',
   },
   Enter: {
@@ -164,39 +168,39 @@ const KEYS_ENUM = {
     size: 'wide',
   },
   KeyZ: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'z', ru: 'я' },
     size: 'small',
   },
   KeyX: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'x', ru: 'ч' },
     size: 'small',
   },
   KeyC: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'c', ru: 'с' },
     size: 'small',
   },
   KeyV: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'v', ru: 'м' },
     size: 'small',
   },
   KeyB: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'b', ru: 'и' },
     size: 'small',
   },
   KeyN: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'n', ru: 'т' },
     size: 'small',
   },
   KeyM: {
-    value: { en: 'i', ru: '_' },
+    value: { en: 'm', ru: 'ь' },
     size: 'small',
   },
   Comma: {
-    value: { en: ',', ru: '_' },
+    value: { en: ',', ru: 'б' },
     size: 'small',
   },
   Period: {
-    value: { en: '.', ru: '_' },
+    value: { en: '.', ru: 'ю' },
     size: 'small',
   },
   Slash: {
@@ -205,7 +209,7 @@ const KEYS_ENUM = {
   },
   ArrowUp: {
     value: { all: '&#9650;' },
-    size: 'wide',
+    size: 'small',
   },
   ShiftRight: {
     value: { all: 'Shift' },
@@ -217,11 +221,11 @@ const KEYS_ENUM = {
   },
   MetaLeft: {
     value: { all: 'Win' },
-    size: 'wide',
+    size: 'small',
   },
   AltLeft: {
     value: { all: 'Alt' },
-    size: 'wide',
+    size: 'small',
   },
   Space: {
     value: { all: ' ' },
@@ -229,7 +233,7 @@ const KEYS_ENUM = {
   },
   AltRight: {
     value: { all: 'Alt' },
-    size: 'wide',
+    size: 'small',
   },
   ControlRight: {
     value: { all: 'Ctrl' },
@@ -237,15 +241,15 @@ const KEYS_ENUM = {
   },
   ArrowLeft: {
     value: { all: '&#9664;' },
-    size: 'wide',
+    size: 'small',
   },
   ArrowDown: {
     value: { all: '&#9650;' },
-    size: 'wide',
+    size: 'small',
   },
   ArrowRight: {
     value: { all: '&#9654;' },
-    size: 'wide',
+    size: 'small',
   },
 };
 

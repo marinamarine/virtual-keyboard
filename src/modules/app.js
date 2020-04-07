@@ -13,10 +13,7 @@ export default class App {
       new DomElement({
         class: ['container'],
         content: [
-          new DomElement({
-            element: 'textarea',
-            class: ['textarea'],
-          }).render(),
+          this.keyboard.textarea,
           new DomElement({
             class: ['keyboard'],
             content: [
@@ -29,5 +26,6 @@ export default class App {
         ],
       }).render(),
     );
+    this.keyboard.textareaFocus();
   }
 }
