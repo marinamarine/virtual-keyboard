@@ -23,6 +23,11 @@ export default class App {
               }).render(),
             ],
           }).render(),
+          new DomElement({
+            element: 'p',
+            class: ['description'],
+            content: 'Shift + Alt to change language',
+          }).render(),
         ],
       }).render(),
     );
