@@ -1,5 +1,6 @@
 import App from './src/modules/app.js';
 
 window.onload = () => {
-  new App(document.body).render();
+  window.app = new App(document.body);
+  window.app.render();
 };
