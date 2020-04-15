@@ -17,5 +17,7 @@ module.exports = {
   },
   rules: {
     'import/extensions': [2, 'ignorePackages', { js: 'always' }],
+    'no-underscore-dangle': ["error", { "allowAfterThis": true }],
+    'linebreak-style': ["error", "windows"],
   },
 };
